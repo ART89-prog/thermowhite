@@ -419,7 +419,7 @@ body {
   line-height: 22px;  
   color: var(--text_color);
   border-left: 2px solid #F5DB51; 
-  max-width: 350px;
+  max-width: 390px;
   margin-right: 20px;
 }
 .header_contacts {
@@ -455,7 +455,13 @@ body {
   background: linear-gradient(180deg, #3314AF 0%, #7E52DB 100%);
 }
 .header_contacts a:first-child {
-  margin-right: 7px;
+  margin-right: 3px;
+}
+.header_contacts-soc:nth-child(2) {
+  display: none;
+}
+.header_contacts-soc:nth-child(4) {
+  display: none;
 }
 
 
@@ -924,6 +930,10 @@ body {
   line-height: 29px;
   color: var(--text_color);
   margin-bottom: 22px;
+  margin-top: 20px;
+}
+.features_info-title.fs36 {
+  font-size: 36px;
 }
 .features_video {
   margin-left: -105px;
@@ -973,7 +983,7 @@ body {
 .table {
 	width: 100%;
 	border: none;
-	margin-bottom: 38px;
+	margin-bottom: 10px;
 	border-collapse: separate;
   border-spacing: 0px 7px;
 }
@@ -1018,6 +1028,7 @@ body {
 .table tbody tr.active td {
   background: #FFFFFF;
   color: #212121;
+  font-weight: 700;
 }
 .table tbody tr td:first-child {
 	border-radius: 15px 0 0 15px;
@@ -1055,6 +1066,9 @@ body {
 .step {
   background: var(--bg2);
   padding-bottom: 80px;
+}
+.step .title {
+  font-size: 44px;
 }
 .step_items {
   counter-reset: step;
@@ -1119,6 +1133,9 @@ body {
 .contacts {
   padding-bottom: 230px;
   background: var(--bg);
+}
+.contacts .title {
+  font-size: 44px;
 }
 .contacts .container {
   display: flex;

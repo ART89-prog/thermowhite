@@ -6,6 +6,15 @@
         --font_size_title: 36px;
         --font_size: 18px;
     }
+    .features_info-title.fs36 {
+        font-size: 30px;
+    }
+    .contacts .title {
+        font-size: 36px;
+    }
+    .step .title {
+        font-size: 36px;
+    }
     .header_mode {
         display: none;
     }
@@ -90,7 +99,7 @@
         line-height: 42px;
     }
     .block_title {
-        margin-bottom: 15px;
+        margin-bottom: 25px;
     }
     .block_title-left {
         margin-right: 0px;

@@ -14,7 +14,7 @@
         line-height: 11px;
     }
     .usage_item:nth-child(2) ol {
-        max-width: 195px;
+        max-width: 183px;
     }
     .first-section_title .white, 
     .first-section_title .yellow {
@@ -35,7 +35,10 @@
     .first-section_price {
         padding: 4px 25px 8px 22px;
     }
-
+    footer .header_contacts-phone {
+        font-size: 22px;
+        line-height: 27px;
+    }
 
   
     
