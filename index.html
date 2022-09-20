@@ -32,10 +32,10 @@
                                 </div>
                             </div>                   
                             <div class="header_contacts">
-                                <a href="#">
+                                <a href="#" class="header_contacts-soc">
                                     <img src="image/whatsapp.svg" alt="">
                                 </a>
-                                <a href="#">
+                                <a href="#" class="header_contacts-soc">
                                     <img src="image/viber.svg" alt="">
                                 </a>                    
                                 <a href="tel:79295018787" class="header_contacts-phone">
@@ -72,7 +72,6 @@
                 </section>
 
 
-
                 <section class="callback">
                     <div class="container">  
                         <div class="callback_wrap">
@@ -99,12 +98,11 @@
                 </section>
 
 
-
                 <section class="characteristic block">
                     <div class="container">
                         <div class="block_title">
                             <div class="title">Отличные характеристики</div>
-                            <a href="">
+                            <a href="" class="block_title-link">
                                 <span>Сертификаты</span>
                                 <img src="image/arrow.svg" alt="">
                             </a>
@@ -135,9 +133,12 @@
                                 <div class="characteristic_item-value">30 мм</div>
                             </div>
                         </div>
+                        <a href="" class="block_title-link block_title-link-mob">
+                            <span>Сертификаты</span>
+                            <img src="image/arrow.svg" alt="">
+                        </a>
                     </div>
                 </section>
-
 
 
                 <section class="usage block">
@@ -147,7 +148,7 @@
                                 <div class="title">Сферы применения</div>
                                 <div class="desc">Теплоизоляция широкого применения для частных домовладений, квартир и апартаментов в многоэтажных домах, отелей, офисных и общественных зданий.</div>
                             </div>                            
-                            <a href="" class="bg">
+                            <a href="" class="bg block_title-link">
                                 <span>Запросите прайс-лист</span>
                                 <img src="image/arrow.svg" alt="">
                             </a>
@@ -181,6 +182,10 @@
                                 </div>    
                             </div>
                         </div>
+                        <a href="" class="bg block_title-link block_title-link-mob">
+                            <span>Запросите прайс-лист</span>
+                            <img src="image/arrow.svg" alt="">
+                        </a>
                     </div>
                 </section>
 
@@ -353,7 +358,6 @@
                 </section>
 
 
-
                 <section class="contacts block">
                     <div class="container">
                         <div class="contacts_left">
@@ -369,7 +373,7 @@
                                 <img src="image/phone-call.svg" alt="">
                                 <span>+7(929)501-88-77</span>
                             </a>
-                            <a href="#" class="contacts_link">
+                            <a href="#" class="block_title-link">
                                 <span>Сертификаты</span>
                                 <img src="image/arrow.svg" alt=""> 
                             </a>
@@ -379,7 +383,6 @@
                         </div> 
                     </div>
                 </section>
-
 
 
                 <section class="callback callback3">
@@ -420,10 +423,10 @@
                                 </div>
                             </div>                   
                             <div class="header_contacts">
-                                <a href="#">
+                                <a href="#" class="header_contacts-soc">
                                     <img src="image/whatsapp.svg" alt="">
                                 </a>
-                                <a href="#">
+                                <a href="#" class="header_contacts-soc">
                                     <img src="image/viber.svg" alt="">
                                 </a>                    
                                 <a href="tel:79295018787" class="header_contacts-phone">
@@ -444,21 +447,23 @@
         <div class="overlay"></div>
 
         <section class="modal" id="callback_modal">
-            <div class="modal_title">Обратный звонок</div>
+            <div class="modal_title">Перезвоните мне</div>
             <div class="modal_text">Оставьте свои данные, мы <br>
                 перезвоним в ближайшее время</div>
-            <form action="" class="form">
+            <form class="form callback_form">
                 <div class="line">
                     <div class="field">
-                        <input type="text" name="name" value="" class="input required" placeholder="Ваше имя">
+                        <img src="image/user.svg" alt="">
+                        <input type="text"placeholder="Ваше имя">
                     </div>
                     <div class="field">
-                        <input type="tel" name="phone" value="" class="input required" placeholder="Ваш телефон">
-                    </div> 
-                    <button type="submit" class="submit_btn modal_btn">
+                        <img src="image/phone.svg" alt="">
+                        <input type="tel" placeholder="Ваш телефон">
+                    </div>
+                    <button type="submit" class="submit_btn">
                         <span>Перезвоните мне</span>
-                    </button>
-                </div>             
+                    </button>             
+                </div>        
             </form>            
         </section>
 
@@ -470,6 +475,8 @@
     <script src="js/jquery-3.5.0.min.js"></script>
     <script src="js/inputmask.min.js"></script>
     <script src="js/fancybox.min.js"></script>
+    <script src="js/lozad.min.js"></script>
+    <script src="js/functions.js"></script>
     <script src="js/scripts.js"></script>
 
   

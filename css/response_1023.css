@@ -30,11 +30,9 @@
     .first-section_info {
         max-width: 100%;
     }
-    .title {
-        line-height: 42px;
-    }
     .block {
         padding-top: 50px;
+        padding-bottom: 50px;
     }
     .usage_items {
         margin-left: 0;
@@ -44,6 +42,9 @@
         width: 100%;
         margin-left: 0px;
         margin-bottom: 18px;
+    }
+    .usage_item:last-child {
+        margin-bottom: 0;
     }
     .features_top {
         flex-direction: column;
@@ -78,6 +79,58 @@
     .map_wrap {
         width: 100%;
     }
+    .block_title-link {
+        display: none;
+    }
+    .block_title-link-mob {
+        display: flex;
+        margin: 36px auto 0;
+    }
+    .first-section_title {
+        line-height: 42px;
+    }
+    .block_title {
+        margin-bottom: 15px;
+    }
+    .block_title-left {
+        margin-right: 0px;
+    }
+    .table {
+        margin-bottom: 10px;
+    }
+    .callback2 .callback_title {
+        font-size: 26px;
+        line-height: 32px;
+    }
+    .features {
+        padding-bottom: 160px;
+    }
+    .contacts {
+        padding-bottom: 170px;
+    }
+    .callback_title {
+        font-size: 30px;
+    }
+    .features_top .features_info {
+        border: none;
+        padding: 0;
+    }
+    .features_info-title {
+        font-size: 26px;
+        line-height: 29px;
+        margin-bottom: 15px;
+        margin-top: 20px;
+    }
+    .contacts .block_title-link {
+        display: flex;
+    }
+    .first-section_price {
+        background: #595959;
+    }
+
+
+
+
     
 }
 
