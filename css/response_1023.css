@@ -4,6 +4,7 @@
 @media (max-width: 1023px) {
     :root {
         --font_size_title: 36px;
+        --font_size: 18px;
     }
     .header_mode {
         display: none;
@@ -66,6 +67,16 @@
     }
     .step_items > * {
         width: calc(100%/2 - 30px);
+    }
+    .contacts .container {
+        flex-direction: column;
+    }
+    .contacts_left {
+        margin-right: 0;
+        margin-bottom: 30px;
+    }
+    .map_wrap {
+        width: 100%;
     }
     
 }

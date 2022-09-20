@@ -1,4 +1,8 @@
-@media (max-width: 767px){      
+@media (max-width: 767px){     
+    :root {
+        --font_size_title: 28px;
+        --font_size: 16px;
+    } 
     .header_contacts-popup {
         display: none;
     }
@@ -21,6 +25,30 @@
     .step_items > * {
         width: 100%;
         margin-left: 0;
+    }
+    .callback_form .line {
+        flex-direction: column;
+    }
+    .callback_form .line .field {
+        margin-right: 0px;
+        margin-bottom: 16px;
+        max-width: 100%;
+    }
+    .callback_form .line .submit_btn {
+        width: 100%;
+        text-align: center;
+        justify-content: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    .callback_form .line .submit_btn img {
+        display: none;
+    }
+    .characteristic_item-value {
+        font-size: var(--font_size);
+        line-height: 22px;
+        width: 60%;
+        text-align: right;
     }
    
    
