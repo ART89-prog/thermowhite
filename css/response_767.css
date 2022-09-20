@@ -1,5 +1,27 @@
 @media (max-width: 767px){      
- 
+    .header_contacts-popup {
+        display: none;
+    }
+    .header_logo {
+        width: 102px;
+        flex-shrink: 0;
+    }
+    .header_logo img {
+        width: 100%;
+    }
+    .header_logo a {
+        margin-right: 0px;
+    }
+    .header {
+        padding: 24px 0 13px;
+    }
+    .step_items {
+        margin-left: 0;
+    }
+    .step_items > * {
+        width: 100%;
+        margin-left: 0;
+    }
    
    
     

@@ -1,4 +1,14 @@
 @media (max-width: 479px) {
+    .header_contacts img {
+        width: 24px;
+        height: 24px;
+    }
+    .header_contacts-phone {
+        font-size: 15px;
+        line-height: 18px;
+        margin-left: 8px;
+    }
+
 
 
   
